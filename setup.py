@@ -9,7 +9,7 @@ setup(name="EyelinkCalibration",
       entry_points={"gui_scripts": ["EyelinkCalibration = EyelinkCalibration.main_gui:main"
                                    ]
                    },
-      install_requires=["PyQt5",
+      install_requires=[
                         "pylink",
                         "pyserial",
                         "psychopy",
